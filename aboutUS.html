@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2db962e606.js" crossorigin="anonymous"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+        * {
+            margin: 0px;
+            padding: 2px;
+            font-family: "Lato", sans-serif;
+        }
+
+        header {
+            padding: 20px 100px;
+            background: linear-gradient(66deg, rgb(176, 173, 253) 0%,
+                    rgb(236, 221, 251) 100%);
+        }
+
+        h1 {
+            text-align: center;
+            padding: 1rem;
+            color: blue;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #nav {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .aboutUsMessage {
+            line-height: 40px;
+
+        }
+
+        .aboutUsMessage h3 {
+            color: #777;
+        }
+
+        @media (max-width: 1024px) {
+            header {
+                padding: 0.8rem;
+            }
+
+        }
+
+
+        @media(max-width: 767px) {
+            header {
+                padding: 0.8rem;
+            }
+        }
+
+        @media(max-width: 607px) {
+            header ul li:nth-child(2) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="" id="logo"><i class="fa-regular fa-images"></i>Photo Search</a></li>
+            </ul>
+            <ul id="nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutUS.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="nameOfSite">
+            <h1>ImageQuest</h1>
+        </div>
+        <div class="aboutUsMessage">
+
+            <h3> Welcome to ImageQuest,</h3> <br>
+
+            <p>where every search is a journey through a world of images!
+
+                At ImageQuest, we're passionate about helping you discover the perfect images for your every need.
+                Whether you're a designer seeking inspiration, <br> a blogger looking for captivating visuals, or just
+                someone
+                who loves exploring the beauty of photography,<br> our platform is your gateway to a vast and diverse
+                collection
+                of images from around the globe.
+
+                With a user-friendly interface and powerful search capabilities, finding the right image has never been
+                easier. Our curated selection spans a multitude of categories, themes, and styles, ensuring that you'll
+                always find exactly what you're looking for. <br>
+
+                But ImageQuest is more than just a search engine for images. It's a community of creatives,
+                photographers, and enthusiasts who share a common love for visual storytelling. Join us in celebrating
+                the
+                artistry and creativity behind each image, and let your imagination run wild as you explore our
+                ever-expanding gallery. <br>
+
+                Whether you're a seasoned professional or just starting out on your creative journey, ImageQuest
+                is
+                here to empower you with the tools and inspiration you need to bring your vision to life. So why wait?
+                Start
+                searching, exploring, and creating today with ImageQuest. <br>
+
+                ---
+
+                Feel free to search Now!!
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
